@@ -1,5 +1,8 @@
-<h1>All Tasks</h1>
+<a class="btn btn-primary btn-lg active" role="button" href="/tasks">Task Index</a>
+<a class="btn btn-warning btn-lg active" role="button" href="/">Home</a>
+
+<h1 class="text-center">All Tasks</h1>
 
 <% @tasks.each do |task| %>
-  <h3><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+  <h3 class="bg-info col-md-12"><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
 <% end %>

@@ -1,6 +1,11 @@
-<form action="/tasks" method="post">
-  <p> Enter a new task:</p>
-  <input type='text' name='task[title]'/><br/>
-  <textarea name='task[description]'></textarea><br/>
-  <input type='submit'/>
-</form>
+<a class="btn btn-primary btn-lg active" role="button" href="/tasks">Task Index</a>
+<a class="btn btn-warning btn-lg active" role="button" href="/">Home</a>
+
+<div class="text-center">
+  <form action="/tasks" method="post">
+    <p> Enter a new task:</p>
+    <input type='text' name='task[title]'/><br/>
+    <textarea name='task[description]'></textarea><br/>
+    <input class="btn btn-info" type='submit'/>
+  </form>
+</div>

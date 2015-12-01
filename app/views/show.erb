@@ -1,5 +1,12 @@
-<a href="/tasks">Task Index</a>
+<a class="btn btn-primary btn-lg active" role="button" href="/tasks">Task Index</a>
+<a class="btn btn-warning btn-lg active" role="button" href="/">Home</a>
 
-<h1><%= @task.title %></h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="text-capitalize"><%= @task.title %></h1>
 
-<p><%= @task.description %></p>
+      <p class="text-capitalize"><%= @task.description %></p>
+    </div>
+  </div>
+</div>
