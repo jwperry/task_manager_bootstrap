@@ -1,8 +1,8 @@
 ---
 tasks:
 - id: 1
-  title: test
-  description: TEST
+  title: test edit!
+  description: TEST EDITED!
 - id: 2
   title: welcome
   description: to thunderdome
@@ -12,4 +12,10 @@ tasks:
 - id: 4
   title: it
   description: works!
-total: 4
+- id: 5
+  title: tester
+  description: tester
+- id: 6
+  title: postman task
+  description: description here
+total: 7
